@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "jsx": "react-native", /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "./src/"
+    ],
+    "exclude": [
+        "**/__tests__",
+        "**/__tests__util",
+        "**/__mocks__",
+        "**/*.test.*",
+    ]
+}
